@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{81E9A3DB-3737-4089-BDDC-C91244CE6894}</ProjectGuid>
+    <ProjectGuid>{27B81907-180F-47C0-A6B7-685AA986163C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Compiler41</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -145,6 +145,11 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Defination.h" />
+    <ClInclude Include="LoadFile.h" />
+    <ClInclude Include="Sentence.h" />
+  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>

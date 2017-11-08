@@ -21,6 +21,9 @@
     <ClInclude Include="Sentence.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LoadFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
